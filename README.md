@@ -1,7 +1,9 @@
 # ytscraping use
  
+ # install module
  ```npm i ytscraping```
 
+# example usage
 ```
 const ytscraping = require('ytscraping');
 
