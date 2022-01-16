@@ -43,8 +43,10 @@ ytscraping.SetUrl("https://www.youtube.com/watch?v=YRerQwKAM2A").then((videoId) 
 
 # SetUrl(params)
 ```params``` : Youtube video id return (https://www.youtube.com/watch?v=```YRerQwKAM2A```) ex. YRerQwKAM2A
+
 usage:
-``` ytscraping.getTitle(videoId).then((title) => {
+``` 
+    ytscraping.getTitle(videoId).then((title) => {
         console.log(title);
     }).catch((err) => {
         console.error(err);
