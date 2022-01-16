@@ -1,7 +1,5 @@
-# ytscraping use
- 
- # install module
- ```npm i ytscraping```
+# install module
+```npm i ytscraping```
 
 # example usage
 ```
@@ -42,3 +40,14 @@ ytscraping.SetUrl("https://www.youtube.com/watch?v=YRerQwKAM2A").then((videoId) 
     console.error(err);
 });
 ```
+
+# SetUrl(params)
+```params``` : Youtube video id return (https://www.youtube.com/watch?v=```YRerQwKAM2A```) ex. YRerQwKAM2A
+usage:
+``` ytscraping.getTitle(videoId).then((title) => {
+        console.log(title);
+    }).catch((err) => {
+        console.error(err);
+    });
+```
+
