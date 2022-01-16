@@ -3,7 +3,7 @@
  ```npm i ytscraping```
 
 ```
-const ytscraping = require('yt-scraping');
+const ytscraping = require('ytscraping');
 
 ytscraping.SetUrl("https://www.youtube.com/watch?v=YRerQwKAM2A").then((videoId) => {
     ytscraping.getTitle(videoId).then((title) => {
