@@ -2,6 +2,7 @@
  
  ```npm i yt-scraping```
 
+```
 const yt-scraping = require('yt-scraping');
 
 deneme.SetUrl("https://www.youtube.com/watch?v=YRerQwKAM2A").then((videoId) => {
@@ -23,3 +24,4 @@ deneme.SetUrl("https://www.youtube.com/watch?v=YRerQwKAM2A").then((videoId) => {
 }).catch((err) => {
     console.error(err);
 });
+```
