@@ -1,13 +1,13 @@
 {
-  "name": "deneme",
+  "name": "ytscraping",
   "version": "1.0.0",
-  "description": "deneme bşi bşi",
+  "description": "module that captures watching the title of the video and which channel uploaded it",
   "main": "index.js",
   "keywords": [
-      "dedsdas",
-      "yani"
+      "youtube",
+      "scraping"
   ],
-  "author": "ibo",
+  "author": "ibodev1",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
