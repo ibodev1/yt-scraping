@@ -1,0 +1,23 @@
+{
+  "name": "deneme",
+  "version": "1.0.0",
+  "description": "deneme bşi bşi",
+  "main": "index.js",
+  "keywords": [
+      "dedsdas",
+      "yani"
+  ],
+  "author": "ibo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "get-ip-region-name": "^1.0.1",
+    "playwright": "^1.17.2",
+    "puppeteer": "^13.0.1",
+    "whatsmyip": "^1.0.2"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
