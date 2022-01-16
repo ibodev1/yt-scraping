@@ -1,8 +1,9 @@
-# install module
+
+# For install
 ```npm i ytscraping```
 
-# example usage
-```
+# Example Usage
+```js
 const ytscraping = require('ytscraping');
 
 ytscraping.SetUrl("https://www.youtube.com/watch?v=YRerQwKAM2A").then((videoId) => {
@@ -45,7 +46,7 @@ ytscraping.SetUrl("https://www.youtube.com/watch?v=YRerQwKAM2A").then((videoId) 
 ```params``` : Youtube video url ex. (https://www.youtube.com/watch?v=YRerQwKAM2A)
 
 usage:
-``` 
+```js
     ytscraping.SetUrl("https://www.youtube.com/watch?v=YRerQwKAM2A").then((videoId) => {
         console.log(videoId);
     }).catch((err) => {
@@ -58,7 +59,7 @@ usage:
 ```params``` : Youtube video id ex. (YRerQwKAM2A)
 
 usage:
-``` 
+```js
     ytscraping.getTitle("YRerQwKAM2A").then((title) => {
         console.log(title);
     }).catch((err) => {
@@ -70,7 +71,7 @@ usage:
 ```params``` : Youtube video id ex. (YRerQwKAM2A)
 
 usage:
-``` 
+```js
     ytscraping.getViews("YRerQwKAM2A").then((views) => {
         console.log(views);
     }).catch((err) => {
@@ -82,7 +83,7 @@ usage:
 ```params``` : Youtube video id ex. (YRerQwKAM2A)
 
 usage:
-``` 
+```js
     ytscraping.getChannelName("YRerQwKAM2A").then((name) => {
         console.log(name);
     }).catch((err) => {
@@ -94,7 +95,7 @@ usage:
 ```params``` : Youtube video id ex. (YRerQwKAM2A)
 
 usage:
-``` 
+```js
     ytscraping.getPublishDate("YRerQwKAM2A").then((date) => {
         console.log(date);
     }).catch((err) => {
@@ -106,7 +107,7 @@ usage:
 ```params``` : Youtube video id ex. (YRerQwKAM2A)
 
 usage:
-``` 
+```js
     ytscraping.getLikeCount("YRerQwKAM2A").then((count) => {
         console.log(count);
     }).catch((err) => {
@@ -118,7 +119,7 @@ usage:
 ```params``` : Youtube video id ex. (YRerQwKAM2A)
 
 usage:
-``` 
+```js
     ytscraping.getChannelSub("YRerQwKAM2A").then((sub) => {
         console.log(sub);
     }).catch((err) => {
